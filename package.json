@@ -1,0 +1,16 @@
+{
+  "name": "slack_test_app",
+  "version": "1.0.0",
+  "description": "bot for slack integration",
+  "main": "mybot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "takeo",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^36.0.0",
+    "slackbots": "^1.2.0"
+  }
+}
