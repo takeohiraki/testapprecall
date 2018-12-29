@@ -15,7 +15,7 @@ var TOKEN_PATH = TOKEN_DIR + 'credentials.json';
 //settings
 var settings = {
 
-     token: 'xoxb-511646391078-510247720194-wGXewnNxeJeGKsc7dEKb0XgF',
+     token: 'xoxb-511646391078-510247720194-Q3ikLQP2FvZOACCq4KstnGae',
      name: 'testapp'
 };
 
@@ -281,7 +281,7 @@ function listEvents(auth) {
         });
       } else {
         console.log('No upcoming events found.');
-        bot.postMessageToChannel(channel, 'No upcoming events found');
+        //bot.postMessageToChannel(channel, 'No upcoming events found');
       }
     });
   }
